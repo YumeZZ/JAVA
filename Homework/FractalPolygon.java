@@ -1,7 +1,3 @@
-/*
-* 學號:104213052
-* 姓名:鍾家蓉
-*/
 import java.lang.*;
 import java.util.Scanner;
 public class FractalPolygon {

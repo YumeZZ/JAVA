@@ -1,7 +1,3 @@
-/*
-* 學號:104213052
-* 姓名:鍾家蓉
-*/
 import java.util.Scanner;
 // 找出費式數列第n個數
 public class Fibonacci {
