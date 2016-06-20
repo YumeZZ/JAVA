@@ -29,7 +29,6 @@ public class Homework {
 
     public static void main(String[] argv) {
         Homework[] GG = new Homework[100];
-        //Homework h = new Homework();
         Scanner input = new Scanner(System.in);
         System.out.println("請輸入功課總繳交時間：");
         String deadline = input.next();
