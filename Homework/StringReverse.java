@@ -5,11 +5,12 @@ public class StringReverse {
         String name = input.next();
         //將字串n個分成一群
         int n = input.nextInt();
-        char[] data = new char[name.length()];
         //將字串輸入陣列
-        for(int i = 0 ; i < name.length() ; i++) {
-            data[i] = name.charAt(i);
-        }
+        char[] data = name.toCharArray();
+        //char[] data = new char[name.length()];
+        // for(int i = 0 ; i < name.length() ; i++) {
+        //     data[i] = name.charAt(i);
+        // }
         //開始反轉
         reverse(data, n);
         for (int i = 0; i < data.length; i++) {

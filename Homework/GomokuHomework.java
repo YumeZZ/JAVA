@@ -71,7 +71,7 @@ class Chess extends Component implements MouseListener {
             for(int i = 0; i < 4 ; i++) {
                 int k = location;
                 for(int j = 0 ; j < 2 ; j++) {
-                    while (board[k+direction[i][j]] == playing) {
+                    while (board[k + direction[i][j]] == playing) {
                         k += direction[i][j];
                         count++;
                         if (count == 5){
